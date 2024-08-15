@@ -16,7 +16,7 @@ df = pd.read_csv('bike.csv')
 print(df.head())
 
 ### We consider the following four models for fitting the Bikeshare data:
-M1: LM
-M2: Poi-GLM
-M3: DNN
+M1: LM,
+M2: Poi-GLM,
+M3: DNN,
 M4: Poi-DNN
