@@ -1,4 +1,5 @@
-#The procedure for loading the Bikeshare data 
+[1] The procedure for loading the Bikeshare data 
+
 To load the Bikeshare data from the ISLR2 package in R into Python, you can follow this two-step process:
 
 Step 1: Save the Bikeshare data as a CSV file in R
@@ -17,7 +18,7 @@ df = pd.read_csv('bike.csv') #Load the CSV file into a pandas DataFrame
 
 print(df.head()) #Display the first few rows of the DataFrame
 
-#We consider the following four models for fitting the Bikeshare data:
+[2] We consider the following four models for fitting the Bikeshare data:
 
 M1: LM
 
